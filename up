@@ -1358,7 +1358,7 @@ table.insert(Connections,Players.PlayerAdded:Connect(function(player)
             task.spawn(function()
                 local id1=(TagList[1] and TagList[1][2]) or ""; local id2=(TagList[2] and TagList[2][2]) or ""
                 local tags= (id1~="" and "<@"..id1.."> " or "")..(id2~="" and "<@"..id2..">" or "")
-                local payload={username="ZNN HOOK",content="⚠️ Foreign Player! "..tags,embeds={{title="🕵️ Player Asing Terdeteksi!",description="```\nName: "..player.DisplayName.."\nUsername: "..player.Name.."\n```",color=0xFF4444,thumbnail={url=GetPlayerAvatar(player.UserId)},footer={text="ZNN HOOK"},timestamp=os.date("!%Y-%m-%dT%H:%M:%SZ")}}}
+                local payload={username="ZNN HOOK",content="⚠️ Foreign Player! "..tags,embeds={{title="🕵️ Player Asing Terdeteksi!",description="```\nName: "..player.DisplayName.."\nUsername: "..player.Name.."\n```",color=0xFF4444,thumbnail={url=GetPlayerAvatar(player.UserId)},footer={text="ZNN WEBHOOK V.1"},timestamp=os.date("!%Y-%m-%dT%H:%M:%SZ")}}}
                 SendWebhookRaw(Current_Admin_Webhook,payload)
             end)
         end
