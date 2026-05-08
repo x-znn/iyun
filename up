@@ -1054,7 +1054,7 @@ local function ParseDataSmart(cleanMsg)
         "Corrupt","Crystalized","Cupid","Disco","Fairy Dust",
         "Festive","Frozen","Galaxy","Gemstone","Ghost",
         "Gold","Heartbreaker","Holographic","Leviathan Rage","Lightning",
-        "Midnight","Moon Fragment","Noob","Radioactive","Sandy","Stone","Carrot","Pastel",
+        "Midnight","Moon Fragment","Noob","Radioactive","Sandy","Stone","Carrot","Pastel","Fire",
     }
 
     local mutation=nil; local finalItem=f
