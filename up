@@ -164,6 +164,8 @@ local SecretFishData = {
     ["Deepsea Monster Axolotl"]   = true,
     ["Blocky Lochness Monster"]   = true,
     ["Aurelion"]                  = true,
+    ["Disco Frogalloon"]          = true,
+    ["Runic Enchant Stone"]       = true,
 }
 
 -- Crystalized whitelist
