@@ -697,7 +697,7 @@ CreateButton(Page_Webhook,"🔧 Test Webhook",Theme.Accent,function()
     ShowNotification("⏳ Mengirim test...",false)
     task.spawn(function()
         local payload={username="ALFAGAMES.ID",embeds={{title="🔧 Test Webhook!",color=0x1E78FF,
-            fields={{name="Status",value="✅ Webhook connected!",inline=true},{name="Script",value="ZNN WEBHOOK V.1",inline=true}},
+            fields={{name="Status",value="✅ Webhook connected!",inline=true},{name="Script",value="ALFAGAMES.ID",inline=true}},
             footer={text="TEST WEBHOOK"}}}}
         local ok2=pcall(function() httpRequest({Url=Current_Webhook,Method="POST",Headers={["Content-Type"]="application/json"},Body=HttpService:JSONEncode(payload)}) end)
         if ok2 then ShowNotification("✅ Test berhasil!",false) else ShowNotification("❌ Gagal! Cek URL",true) end
