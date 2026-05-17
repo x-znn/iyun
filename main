@@ -519,7 +519,7 @@ LogoLabel.TextColor3=Theme.AccentGlow; LogoLabel.TextSize=14; LogoLabel.TextXAli
 
 local VerLabel=Instance.new("TextLabel",Header)
 VerLabel.BackgroundTransparency=1; VerLabel.Position=UDim2.new(0,100,0,0); VerLabel.Size=UDim2.new(0,60,1,0)
-VerLabel.Font=Enum.Font.Gotham; VerLabel.Text="v3.0"; VerLabel.TextColor3=Theme.TextSecond
+VerLabel.Font=Enum.Font.Gotham; VerLabel.Text="v2.0"; VerLabel.TextColor3=Theme.TextSecond
 VerLabel.TextSize=10; VerLabel.TextXAlignment=Enum.TextXAlignment.Left; VerLabel.ZIndex=6
 
 local MinBtn=Instance.new("TextButton",Header)
