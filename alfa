@@ -100,6 +100,7 @@ local ForgottenFishData = {
     ["Thunderzilla"] = true,
     ["Iridesca"]     = true,
     ["Frostbite Leviathan"] = true,
+    ["Fluorivane"]   = true,
 }
 
 local SecretFishData = {
@@ -166,7 +167,7 @@ local SecretFishData = {
     ["Aurelion"]                  = true,
     ["Disco Frogalloon"]          = true,
     ["Runic Enchant Stone"]       = true,
-    ["FluoRivane"]                = true,
+    ["Coral Whale"]               = true,
 }
 
 -- Crystalized whitelist
