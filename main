@@ -817,7 +817,7 @@ CreateButton(Page_Webhook,"👁️ Test Forgotten",Color3.fromRGB(180,0,180),fun
         local forgottenImgUrl=GetFishImage("Sea Eater") or ""
         local embed={title="KELASS KINK CAIR CAIR 💀🔥 [TEST]",color=0xFF00FF,fields=fields,image={url=forgottenImgUrl},footer={text="ZNN HOOK v2.0 • TEST"},timestamp=os.date("!%Y-%m-%dT%H:%M:%SZ")}
         local ok,err=pcall(function()
-            httpRequest({Url=Current_Webhook,Method="POST",Headers={["Content-Type"]="application/json"},Body=HttpService:JSONEncode({username="ALFAGAMES.ID",content="🔥**FORGOTTEN DETECTED*🔥 @everyone",embeds={embed}})})
+            httpRequest({Url=Current_Webhook,Method="POST",Headers={["Content-Type"]="application/json"},Body=HttpService:JSONEncode({username="ALFAGAMES.ID",content="**FORGOTTEN DETECTED** @everyone",embeds={embed}})})
         end)
         if ok then ShowNotification("✅ Test Forgotten terkirim!",false)
         else ShowNotification("❌ Gagal: "..tostring(err),true) end
