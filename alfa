@@ -166,6 +166,7 @@ local SecretFishData = {
     ["Aurelion"]                  = true,
     ["Disco Frogalloon"]          = true,
     ["Runic Enchant Stone"]       = true,
+    ["FluoRivane"]                = true,
 }
 
 -- Crystalized whitelist
